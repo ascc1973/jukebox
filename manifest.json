@@ -1,19 +1,20 @@
 {
-  "name": "Mi Jukebox SD",
-  "short_name": "Jukebox SD",
-  "description": "Reproductor de música sin conexión desde la tarjeta SD.",
-  "start_url": "./index.html",
+  "name": "Jukebox Offline",
+  "short_name": "Jukebox",
+  "description": "Tu reproductor de música sin conexión.",
+  "start_url": "/index.html",
+  "scope": "/",
   "display": "standalone",
-  "background_color": "#1a1a1a",
+  "background_color": "#121212",
   "theme_color": "#1DB954",
   "icons": [
     {
-      "src": "icons/icon-192x192.png",
+      "src": "/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "icons/icon-512x512.png",
+      "src": "/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
